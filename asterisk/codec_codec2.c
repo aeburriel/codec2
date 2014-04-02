@@ -41,7 +41,7 @@
 
 struct codec2_translator_pvt {	        /* both codec2tolin and codec2togsm */
     struct CODEC2 *codec2;
-    short  buf[BUFFER_SAMPLES];	/* lintocodec2, temporary storage */
+    int16_t  buf[BUFFER_SAMPLES];	/* lintocodec2, temporary storage */
 };
 
 static int codec2_new(struct ast_trans_pvt *pvt)
