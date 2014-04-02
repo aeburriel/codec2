@@ -32,7 +32,7 @@
 
 #define BUFFER_SAMPLES	  8000
 #define CODEC2_SAMPLES    160
-#define	CODEC2_FRAME_LEN  7
+#define	CODEC2_FRAME_LEN  6
 
 /* Sample frame data */
 
